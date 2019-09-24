@@ -1,0 +1,173 @@
+<html>
+<head>
+  <title> SIT120 Written Report </title>
+  <link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+
+</head>
+<body >
+  <div>
+      <img src="images/background.png" alt="background" style="width:100%" height="150px">
+  </div>
+ 
+  <h1> Introduction </h1>
+  
+  <p>The HireME.com website which will be using as an online study helper for university students that seek help for their tuff university projects is implemented in <b>vue.JS</b> and <b>Vuetify.js</b> using <b>Vue cli</b> and <b>basic html, CSS</b>.</p>
+  <br>
+  <p>Vuetify.js is a package which implement the martial design for vue.js components
+    Detailed instruction can be found at <a href="https://vuetifyjs.com/en/components/carousels">Vuetifyjs</a></p>
+    <br>
+  <h1>How to set-up </h1>
+  <table border="1px" style="overflow-x:auto;">
+        <tr>
+          <th> <b>Command</b> </th>
+          <th> Permissions</th>
+          <th> What does </th>
+         
+        </tr>
+        <tr>
+          <td> $ npm install -g vue-cli  </td>
+          <td>Root/Administrator </td>
+          <td>Installs the Vue CLi</td>
+        </tr>
+        <tr>
+          <td>$ vue create "app-name"</td>
+          <td>-</td>
+          <td>Creates the Vue app</td>
+        </tr>
+        <tr>
+          <td>cd "app-name"</td>
+          <td>-</td>
+          <td>Navigates into the new folder created </td>
+        </tr>
+        <tr>
+          <td>$ npm install  </td>
+          <td>-</td>
+          <td>Installs dependencies</td>
+        </tr>
+        <tr>
+          <td>$ npm run dev </td>
+          <td>-</td>
+          <td>Serves with hot reload at localhost:8080</td>
+        </tr>
+        </table>
+
+     <h1>Run the application</h1>
+     <p style="color: red;">**Should have Vue cli installed.</p>
+     <p>Simply navigate into the project folder and give following commands.</p>
+     <ui>
+         <li>$ npm install</li>
+         <li>$ npm run dev</li>
+     </ui>
+     <br>
+
+     <h1>Coding practices</h1>
+     <h3>Following table shows how the coding practices are demonstrated in the project implementation.</h3>
+     <table border="1px" style="overflow-x:auto;">
+        <tr>
+          <th> <b>Coding practices</b> </th>
+          <th> Example code </th>
+          <th> GUI/Proofs </th>
+          <th> Usage </th>
+        </tr>
+        <tr>
+            <td>1.Computed Properties and watchers</td>
+            <td><img align="center" src = "images/COMPUTED-PROPERTIES-AND-WATCHERS.png" width="320" length="2S50"></td>
+            <td><img align="center" src = "images/ui1.png" width="320" length="2S50"></td>
+            <td>Forms validation <br>Ex: Checks both passwords are correct wehn user sign-ups.</td>
+        </tr>
+        <tr>
+          <td> 2.Class and Style Bindings </td>
+          <td> <img align="center" src = "images/CLASS-AND-STYLE-BINDING.png" width="320" length="2550"></td>
+          <td><img align="center" src = "images/BUTTON-DISABLE.png" width="220" length="1550">
+            <img align="center" src = "images/BUTTON-ACTIVE.png" width="220" length="1550">
+            <td>Submit button is not active until all the fields are filled</td>
+        </tr>
+        <tr>
+          <td> 3.Conditional Rendering </td>
+          <td> <img align="left" src = "images/Conditional-Rendering.png" width="320" length="2550"></td>
+          <td></td>
+          <td>All the forms only can be submited <b>only if</b> the validation method successfully as true. </td>
+          
+          <tr>
+          <td>4.List Rendering </td>
+          <td><img align="left" src = "images/List-Rendering.png" width="320" length="2550"></td>
+          <td><img align="left" src = "images/side-images.png" width="320" length="2550"></td>
+        <td>Use to build the image carousel in the home page </td>
+        </tr>
+        <tr>
+            <td>5. Event Handling</td>
+            <td><img align="left" src = "images/button-click-event.png" width="320" length="2550"></td>
+            <td></td>
+            <td>Button click events</td>
+        </tr>
+        <tr>
+          <td> 6.Form Input Bindings </td>
+          <td>  <img align="left" src = "images/FORM.png" width="320" length="2550"> </td>
+          <td><img align="left" src = "images/SIGN-IN-FORM.png" width="320" length="2550"></td>
+          <td><ul>
+              <li>SignIn Form</li>
+              <li>SignUp Form</li>
+              <li>Service Request Form</li>
+          </ul></td>
+        </tr>
+        <tr>
+            <td>7. Components Basics</td>
+            <td><img align="left" src = "images/navDrawer.png" width="320" length="2550">
+                <img align="left" src = "images/navDrawerData.png" width="320" length="2550"></td>
+                <td><img align="left" src = "images/nav.png" width="320" length="2550"></td>
+                <td>Navigation components with icons that come with VUTIFY and shows how data is assigned.</td>
+
+        </tr>
+            
+        <tr>
+          <td>8.Enter/Leave & List Transitions</td>
+          <td><img align="left" src = "images/wrapping.png" width="320" length="2550"></td>
+          <td>Small screens<img align="left" src = "images/wrapping1.png" width="320" length="2550"><br><br>
+            Larger Screens<img align="left" src = "images/wrapping2.png" width="320" length="2550"></td>
+          <td>Navigation bar icons disapear when the screen size is small and menu item pop-ups.</td>
+        </tr>
+        <tr>
+            <tr>
+                <td>9.Filters</td>
+                <td><img align="left" src = "images/filters.png" width="320" length="2550"></td>
+                <td><img align="left" src = "images/filter1.png" width="320" length="2550">
+                    <img align="left" src = "images/filter2.png" width="320" length="2550"></td>
+            
+            <td>User can select a staff members from thelist. When user clicks on "View Profile" button,
+                system will take user into the correct staff member's profile
+            </td>    </tr>
+
+            <td>10.Plugins</td>
+            <td><img align="left" src = "images/pluging1.png" width="320" length="2550"><br>
+                <img align="left" src = "images/pluging1.png" width="320" length="2550"></td>
+            <td></td>
+            <td>Automatically prevents you from using the same plugin more than once, so calling it multiple times on the same plugin will install the plugin only once.</td>
+        </tr>
+        <tr>
+            <td>11.TypeScript Support</td>
+            <td><img align="left" src = "images/jason.png" width="320" length="2550"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>12.Routing</td>
+            <td><img align="left" src = "images/routing.png" width="320" length="2550"></td>
+            <td></td>
+            <td>Navigate between pages</td>
+        </tr>
+        
+        
+      </table> 
+     
+     
+     
+     
+     
+     
+     
+  
+  
+</body>
+
+</html>

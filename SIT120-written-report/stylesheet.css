@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'montserrat' ;
+  src: url( 'fonts/montserrat-black-webfont.woff' )
+  format( 'woff' );
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  margin: 30px;
+  background-color: rgb(252, 207, 222);
+  
+}
+
+th {
+  height: 50px;
+  padding: 15px;
+  background-color: rgb(182, 115, 160);
+}
+td {
+  height: 50px;
+  vertical-align:middle;
+  padding: 15px;
+}
+
+h1{
+  font-family: 'montserrat';
+  color:rgb(88, 4, 15) ;
+}
+h2{
+  font-family: 'montserrat' ;
+  
+}
+h3{
+  font-family: 'montserrat' ;
+  color:#CB527A 
+}
